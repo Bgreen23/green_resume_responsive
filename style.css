@@ -95,7 +95,6 @@ footer {
 	border-bottom: 3px solid black;
 	justify-content: space-between;
 	display: flex;
-	letter-spacing: 1.5;
 }
 .skill {
 	display: flex;
@@ -151,3 +150,38 @@ h1, h2, h3 {
 	border-bottom: 3px solid black;
 	padding-bottom: 90px;
 }
+@media only screen and (max-width:780px) {
+	body{
+		display: inline-block;
+	}
+	.header {
+		display: block;
+	}
+	.column {
+		column: 1;
+		display: inline-block;
+	}
+	.rando {
+		display: block;
+	}
+	.contact {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.contact2 {
+		display: inline;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.edu {
+		display: block;
+	}
+	.name {
+		display: inline;
+	}
+	.info {
+		display: inline;
+	}
+
+  }
